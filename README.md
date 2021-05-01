@@ -1,5 +1,7 @@
 # preact-form
 
+This repo presents basic integration preact framework and react-hook-form.
+
 ## CLI Commands
 
 ``` bash
