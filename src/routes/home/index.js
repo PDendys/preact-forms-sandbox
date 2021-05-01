@@ -5,9 +5,14 @@ import Form from '../../components/form/Form';
 
 const Home = () => (
 	<div class={style.home}>
-		<h1>Home</h1>
-		<Form />
-		<p>This is the Home component.</p>
+		<div className="container">
+			<div className="col-12">
+				<h1>Home</h1>
+			</div>
+			<div className="col-8 offset-2">
+				<Form />
+			</div>
+		</div>
 	</div>
 );
 
